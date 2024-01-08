@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Mains.ButtonPage"
+             Title="ButtonPage"
+             BackgroundColor="#F9F9F9">
+    <VerticalStackLayout Padding="10">
+        <Label x:Name="LblLog"
+            />
+        <Button x:Name="Butao"
+            
+            Text="Descubra !"
+           
+            TextColor="Black"
+            TextTransform="Uppercase"
+            FontFamily="NatalBold"
+            CornerRadius="20"
+                
+            HorizontalOptions="Center"
+             
+                
+            BorderColor="Blue"
+            BorderWidth="1"
+                
+            Clicked="Button_Clicked"
+            Pressed="Butao_Pressed"
+            Released="Butao_Released"
+                
+            ImageSource="dotnet_bot.png"
+            ContentLayout="Left , 20"
+            
+            />
+
+    </VerticalStackLayout>
+</ContentPage>

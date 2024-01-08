@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Mains.ImageButtonPage"
+             Title="ImageButtonPage"
+             BackgroundColor="#f9f9f9">
+    <VerticalStackLayout>
+        <ImageButton 
+            Source="powerOff.png"
+            IsOpaque="True"
+            HeightRequest="200"
+            Clicked="ImageButtonPowerOff_Clicked"/>
+
+
+
+        <ImageButton
+            Source="lampadadesligada.png"
+            HeightRequest="200"
+            Clicked="ImageButton_Clicked"
+            Pressed="ImageButton_Pressed"/>
+    </VerticalStackLayout>
+</ContentPage>

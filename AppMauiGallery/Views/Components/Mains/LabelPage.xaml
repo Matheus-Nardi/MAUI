@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Mains.LabelPage"
+             Title="LabelPage"
+             BackgroundColor="#F9F9F9">
+    <ScrollView>
+
+        <VerticalStackLayout>
+
+            <Label Text="TEXT"
+       HorizontalOptions="FillAndExpand"  
+       HorizontalTextAlignment="Center"
+       BackgroundColor="CadetBlue"
+       FontSize="24"
+       Padding="10"
+       />
+
+            <Label 
+            Text="Sobre o componente Label!"
+            TextColor="#CC33945C"
+            TextDecorations="Underline"
+            TextTransform="Uppercase"
+            Padding="10"
+            />
+
+            <Label Text="Trabalhando com as fontes"
+               Padding="10"
+               FontSize="Caption"
+               FontAttributes="Bold"
+               />
+
+            <Label Text="Está chegando o natal"
+               FontFamily="NatalBold"
+               FontSize="Medium"/>
+
+            <Label Text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+               MaxLines="10"
+               LineHeight="1.4"
+               LineBreakMode="TailTruncation"
+               Padding="5"/>
+
+            <Label Padding="10" >
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Olá .NET MAUI " FontSize="Large" />
+                        <Span Text="com FormattedText" FontSize="Small" TextDecorations="Underline" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+
+
+            <Label Text="Usando o alinhamento de texto" Padding="10" FontSize="15" BackgroundColor="Azure"
+               HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" HeightRequest="300" VerticalTextAlignment="Center"/>
+
+            <Label Text="HTML"
+               HorizontalOptions="FillAndExpand"  
+               HorizontalTextAlignment="Center"
+               BackgroundColor="CadetBlue"
+               FontSize="24"
+               Padding="10"
+               />
+
+            <Label
+            Padding="10"
+            BackgroundColor="LightCyan"
+            Text="Olá .NET MAUI &lt;i>; &#34; MAUI ITALICO &#34; com HTML &lt;/i"
+            TextType="Html"
+            />
+
+            <Label TextType="Html"  
+            Padding="10"
+            BackgroundColor="LightCyan">
+                <Label.Text>
+                    <![CDATA[
+                    <h1>Olá .NET MAUI</h1>
+                    <p>MAUI com HTML</p>
+                    <p><strong> Usando Strong </strong> </p>
+                ]]>
+                </Label.Text>
+            </Label>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

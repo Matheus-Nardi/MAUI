@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Layouts.StackLayoutPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="StackLayoutPage"
+    BackgroundColor="#F9F9F9">
+
+    <!--  Escolher um layout principal  -->
+    <StackLayout
+        Margin="20"
+        Padding="20"
+        Orientation="Vertical"
+        Spacing="10"> 
+        <!--  Tudo ira oucpar uma linha e permirte varaias estruturas  -->
+        <Label Text="Bom dia" />
+
+        <!--  Pode haver outros tipos de layout dentro de outros layout  -->
+        <!--  Porem ira ocupar somente um espaço delimitado  -->
+        <StackLayout Orientation="Horizontal" Spacing="50">
+            <Button
+                HorizontalOptions="Start"
+                Text="Ola"
+                VerticalOptions="StartAndExpand" />
+            <Button
+                HorizontalOptions="Start"
+                Text="Ola"
+                VerticalOptions="StartAndExpand" />
+        </StackLayout>
+        <Button
+            HeightRequest="120"
+            HorizontalOptions="End"
+            Text="Amor"
+            WidthRequest="200" />
+        <VerticalStackLayout Padding="10" BackgroundColor="Bisque">
+            <Label Text="Usando VERTICAL" />
+            <Label Text="Usando VERTICAL" />
+        </VerticalStackLayout>
+        <HorizontalStackLayout
+            Padding="10"
+            BackgroundColor="Beige"
+            Spacing="20">
+            <Label Text="Usando horizontal" />
+            <Label Text="Usando horizontal" />
+        </HorizontalStackLayout>
+    </StackLayout>
+
+    <!--  Vertical e Horizontal são mais perfomaticos para o app  -->
+</ContentPage>

@@ -1,0 +1,1 @@
+C:\dev\NetMaui\CursoMaui\AppContentPage\AppContentPage.csproj;x64

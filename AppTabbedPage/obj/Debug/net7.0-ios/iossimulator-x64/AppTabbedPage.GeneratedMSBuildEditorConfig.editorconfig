@@ -1,0 +1,53 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppTabbedPage
+build_property.ProjectDir = C:\dev\NetMaui\CursoMaui\AppTabbedPage\
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/Pag1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.Pag1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pag1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pag1.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/Page2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.Page2.xaml
+build_metadata.AdditionalFiles.TargetPath = Page2.xaml
+build_metadata.AdditionalFiles.RelativePath = Page2.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/Page3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.Page3.xaml
+build_metadata.AdditionalFiles.TargetPath = Page3.xaml
+build_metadata.AdditionalFiles.RelativePath = Page3.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppTabbedPage/TabbedPageMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppTabbedPage.TabbedPageMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = TabbedPageMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = TabbedPageMenu.xaml

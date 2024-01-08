@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Menu"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Menu"
+    Padding="25"
+    BackgroundColor="#F3F3F3">
+
+    <ScrollView>
+
+        <VerticalStackLayout Spacing="12">
+            <Label
+                Margin="30"
+                FontAttributes="Bold"
+                FontFamily="OpenSansSemibold"
+                FontSize="24"
+                HorizontalOptions="Center"
+                Text="MAUI - Gallery"
+                VerticalOptions="Center" />
+            <Label Text="Início">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnTapHome" />
+
+                </Label.GestureRecognizers>
+            </Label>
+
+            <!--  Add um gesto ao elemento  -->
+            <!--<Label>
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" >
+                    Como se fosse um butão
+                </TapGestureRecognizer>
+            </Label.GestureRecognizers>
+        </Label>-->
+            <Label Text="Extra" />
+            <Label Text="Créditos" />
+
+            <VerticalStackLayout x:Name="MenuConteiner" Margin="0,10,0,0" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

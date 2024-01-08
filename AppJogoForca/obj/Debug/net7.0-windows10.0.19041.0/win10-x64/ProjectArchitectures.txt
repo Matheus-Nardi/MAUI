@@ -1,1 +1,0 @@
-C:\dev\NetMaui\CursoMaui\AppJogoForca\AppJogoForca.csproj;x64

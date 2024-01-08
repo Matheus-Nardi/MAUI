@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Layouts.GridLayoutPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="GridLayoutPage"
+    BackgroundColor="White">
+    <Grid
+        Margin="20"
+        BackgroundColor="LightGray"
+        ColumnDefinitions="6* , Auto , 2* , 2*"
+        ColumnSpacing="10"
+        RowDefinitions="50 , 100 , 10"
+        RowSpacing="10">
+        <!--  Definindo linahs e colunas  -->
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="2*"/>-->
+        <!--  Porcentagem  -->
+        <!--
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>-->
+
+        <BoxView BackgroundColor="Aquamarine" />
+        <Label
+            HorizontalOptions="Center"
+            Text="Olá Mundo"
+            VerticalOptions="Center" />
+
+        <BoxView
+            Grid.Row="0"
+            Grid.Column="1"
+            Color="ForestGreen" />
+        <BoxView
+            Grid.RowSpan="2"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            Color="DarkGreen" />
+
+        <Label
+            Grid.RowSpan="2"
+            Grid.Column="2"
+            Grid.ColumnSpan="2"
+            HorizontalOptions="Center"
+            Text="Olá mundo"
+            VerticalOptions="Center" />
+        <BoxView Grid.Row="1" Color="Orange" />
+        <BoxView
+            Grid.Row="1"
+            Grid.Column="1"
+            Color="Red" />
+
+        <BoxView
+            Grid.Row="2"
+            Grid.ColumnSpan="4"
+            HeightRequest="10"
+            Color="Black" />
+    </Grid>
+
+
+
+</ContentPage>

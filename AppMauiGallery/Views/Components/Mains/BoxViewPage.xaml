@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Mains.BoxViewPage"
+             Title="BoxViewPage"
+             BackgroundColor="#F9F9F9"
+             >
+    <VerticalStackLayout Padding="10" Spacing="30">
+        <BoxView 
+         Color="Green"
+         HeightRequest="3"
+            />
+        <BoxView 
+         Color="Yellow"
+         HeightRequest="50"
+         WidthRequest="50" 
+            />
+        <BoxView 
+         Color="Red"
+         HeightRequest="100"
+         WidthRequest="200" 
+            />
+        <BoxView 
+         Color="Blue"
+         CornerRadius="75"
+         HeightRequest="150"
+         WidthRequest="150" 
+            />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,59 @@
+is_global = true
+build_property.TargetFramework = net7.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppFlyoutPage
+build_property.ProjectDir = C:\dev\NetMaui\CursoMaui\AppFlyoutPage\
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/FlyoutPageMenu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.FlyoutPageMenu.xaml
+build_metadata.AdditionalFiles.TargetPath = FlyoutPageMenu.xaml
+build_metadata.AdditionalFiles.RelativePath = FlyoutPageMenu.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/Menu.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.Menu.xaml
+build_metadata.AdditionalFiles.TargetPath = Menu.xaml
+build_metadata.AdditionalFiles.RelativePath = Menu.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/Page1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.Page1.xaml
+build_metadata.AdditionalFiles.TargetPath = Page1.xaml
+build_metadata.AdditionalFiles.RelativePath = Page1.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/Page2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.Page2.xaml
+build_metadata.AdditionalFiles.TargetPath = Page2.xaml
+build_metadata.AdditionalFiles.RelativePath = Page2.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/Page3.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.Page3.xaml
+build_metadata.AdditionalFiles.TargetPath = Page3.xaml
+build_metadata.AdditionalFiles.RelativePath = Page3.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppFlyoutPage/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppFlyoutPage.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml

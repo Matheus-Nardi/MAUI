@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Layouts.FlexLayoutPage"
+             Title="FlexLayoutPage"
+             BackgroundColor="#F9F9F9">
+    <FlexLayout Direction="Row" AlignItems="Start" JustifyContent="Start" Wrap="Wrap" AlignContent="SpaceEvenly" >
+        <Label 
+            Text="Linha 1 !"  Padding="10"
+            BackgroundColor="RosyBrown"
+            TextColor="White"
+            FlexLayout.Order="1"
+            FlexLayout.Grow="0"
+            FlexLayout.Shrink="0"
+            
+           
+             />
+        <Label 
+            Text="Linha 2 !"  Padding="10"
+            BackgroundColor="SandyBrown"
+            TextColor="White"
+            FlexLayout.Order="0"
+            FlexLayout.Shrink="0"
+           />
+        <Label 
+            Text="Linha 3 !"  Padding="10"
+            BackgroundColor="SaddleBrown"
+            TextColor="White"
+             FlexLayout.Order="3"
+            FlexLayout.Shrink="0"
+            /> 
+        <Label 
+            Text="Acho sera !"  Padding="10"
+            BackgroundColor="LightSalmon"
+            TextColor="White"
+            
+            FlexLayout.Order="2"
+            FlexLayout.Grow="0"
+            
+            /> 
+        <Label 
+            Text="Linha Extra para testar o WRAP !"  Padding="10"
+            BackgroundColor="LightSalmon"
+            TextColor="White"
+           FlexLayout.AlignSelf="Stretch"
+            FlexLayout.Order="2"
+            FlexLayout.Grow="0"
+            
+            />
+        
+    </FlexLayout>
+</ContentPage>

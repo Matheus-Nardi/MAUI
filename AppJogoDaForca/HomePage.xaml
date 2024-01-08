@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppJogoDaForca.HomePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="">
+    <VerticalStackLayout Spacing="30" VerticalOptions="Center">
+        <Image Source="forca1.png" WidthRequest="200" />
+
+       
+        <Button
+            Padding="15"
+            BackgroundColor="#ffffff"
+            BorderColor="Black"
+            BorderWidth="2"
+            Clicked="Buttom_Start"
+            CornerRadius="15"
+            FontSize="20"
+            HorizontalOptions="CenterAndExpand"
+            Text="JOGAR"
+            TextColor="Black" />
+        <Button
+            Padding="15"
+            BackgroundColor="#ffffff"
+            BorderColor="Black"
+            BorderWidth="2"
+            Clicked="Button_Exit"
+            CornerRadius="15"
+            FontSize="20"
+            HorizontalOptions="Center"
+            Text="  SAIR  "
+            TextColor="Black" />
+    </VerticalStackLayout>
+</ContentPage>
