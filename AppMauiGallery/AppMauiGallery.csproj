@@ -50,6 +50,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\charlizard.svg" />
 	  <None Remove="Resources\Images\lampadadesligada.png" />
 	  <None Remove="Resources\Images\lampadaligada.png" />
 	  <None Remove="Resources\Images\lampadaquebrada.jpg" />
@@ -78,6 +79,15 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Components\Mains\LabelPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Components\Visuals\BorderPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Components\Visuals\FramePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Components\Visuals\ShadowPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Layouts\AbsoluteLayoutPage.xaml">

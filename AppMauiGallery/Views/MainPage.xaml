@@ -9,10 +9,9 @@
         <Button Text="Faça amor" TextColor="#E21C1C" />
         <Label
             HorizontalOptions="Center"
-           
             Text="Conteudo da Pagina Inicial!"
-            VerticalOptions="Center" TextColor="#B238B3DA" 
-            />
-            
+            TextColor="#B238B3DA"
+            VerticalOptions="Center" />
+
     </VerticalStackLayout>
 </ContentPage>

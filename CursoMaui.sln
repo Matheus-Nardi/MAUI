@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppMauiGallery", "AppMauiGa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppJogoDaForca", "AppJogoDaForca", "{A41F6F71-D9F8-4114-A46A-031D52511E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppJogoDaForca", "AppJogoDaForca\AppJogoDaForca.csproj", "{0B4FECDE-A382-4B8A-B3BE-D1C3E387260C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppJogoDaForca", "AppJogoDaForca\AppJogoDaForca.csproj", "{0B4FECDE-A382-4B8A-B3BE-D1C3E387260C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

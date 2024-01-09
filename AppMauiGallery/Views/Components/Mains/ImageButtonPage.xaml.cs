@@ -4,7 +4,7 @@ namespace AppMauiGallery.Views.Components.Mains;
 
 public partial class ImageButtonPage : ContentPage
 {
-	;
+	
 	bool buttonState = false;
 	bool lampState = false;
 	public ImageButtonPage()

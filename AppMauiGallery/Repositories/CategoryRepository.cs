@@ -1,5 +1,6 @@
 ﻿using AppMauiGallery.Models;
 using AppMauiGallery.Views.Components.Mains;
+using AppMauiGallery.Views.Components.Visuals;
 using AppMauiGallery.Views.Layouts;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace AppMauiGallery.Repositories
             categories.Add(new Category
             {
                 Name = "Layout",
-                Components = new List<Component>{ 
+                Components = new List<Component>{
                     new Component {
                     Title = "Stack Layout",
                     Description = "Organização sequencial dos elementos",
@@ -90,7 +91,40 @@ namespace AppMauiGallery.Repositories
                 }
             });
 
-            
+            categories.Add(new Category
+            {
+                Name = "Visuais",
+                Components = new List<Component>
+                {
+                    new Component
+                    {
+                        Title = "Frame",
+                        Description = "Caixa que envolve outro elementos",
+                        Page = typeof(FramePage)
+                    } ,
+
+                    new Component
+                    {
+                        Title = "Border",
+                        Description = "Caixa que envolve outro elementos",
+                        Page = typeof(BorderPage)
+                    } ,
+                    new Component
+                    {
+                        Title = "Shadow" ,
+                        Description = "Adiciona sombra a um elemento" ,
+                        Page = typeof(ShadowPage)
+                    
+                    }
+
+                    
+                }
+
+
+            });
+
+
+
 
             return categories;
         }

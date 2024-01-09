@@ -64,6 +64,24 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Compo
 build_metadata.AdditionalFiles.TargetPath = Views\Components\Mains\LabelPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Components\Mains\LabelPage.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Visuals/BorderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Visuals.BorderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Visuals\BorderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Visuals\BorderPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Visuals/FramePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Visuals.FramePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Visuals\FramePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Visuals\FramePage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Visuals/ShadowPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Visuals.ShadowPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Visuals\ShadowPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Visuals\ShadowPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Layouts/AbsoluteLayoutPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Layouts.AbsoluteLayoutPage.xaml

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Visuals.FramePage"
+             Title="FramePage" Padding="10">
+    <VerticalStackLayout Spacing="10">
+
+        <Frame CornerRadius="10" BorderColor="Purple" HasShadow="True">
+            <Label 
+                Text="Welcome to .NET MAUI!"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </Frame>
+
+        <HorizontalStackLayout Spacing="15">
+            
+        <Frame BorderColor="DarkBlue" WidthRequest="150" HeightRequest="200" BackgroundColor="LightPink" HorizontalOptions="Start">
+            <Image Source="charlizard.png" HorizontalOptions="Start" />
+        </Frame>
+            
+        <Frame BorderColor="DarkBlue" WidthRequest="100" HeightRequest="100" BackgroundColor="LightPink" HorizontalOptions="Center" VerticalOptions="Start">
+            <Image Source="dotnet_bot.png" />
+        </Frame>
+       
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

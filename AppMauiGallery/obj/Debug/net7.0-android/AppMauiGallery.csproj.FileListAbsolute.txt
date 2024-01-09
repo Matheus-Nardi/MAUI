@@ -995,3 +995,8 @@ C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\d
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\lampadadesligada.png
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\lampadaligada.png
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\lampadaquebrada.jpg
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\charlizard.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\charlizard.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\charlizard.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\charlizard.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\charlizard.png
