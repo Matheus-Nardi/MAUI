@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Forms.EntryPage"
+             Title="EntryPage">
+    <VerticalStackLayout
+        Padding="10">
+        <Label 
+            Text="Write your name :"
+            VerticalOptions="Center" 
+            HorizontalOptions="Start" />
+
+        <Border Stroke="Purple"
+                StrokeThickness="5"
+        >
+
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="10"/>
+            </Border.StrokeShape>
+
+
+
+            <Entry x:Name="setName"
+                BackgroundColor="LightPink"
+                PlaceholderColor="Purple"
+                Placeholder="Name"
+                TextColor="DarkBlue"
+
+                ClearButtonVisibility="WhileEditing"
+                MaxLength="10"
+                CursorPosition="3"
+                SelectionLength="5"
+          
+                IsSpellCheckEnabled="True"
+                IsTextPredictionEnabled="True"
+                   
+                Keyboard="Plain"
+                ReturnType="Next"
+                
+            
+            />
+        </Border>
+
+        <Label Text="Write your passoword :" />
+        
+        <Entry
+            IsPassword="True"
+            Placeholder="Password"
+            PlaceholderColor="Red"
+            TextColor="Blue"
+            TextTransform="Lowercase"
+            ClearButtonVisibility="WhileEditing"
+            MaxLength="10"
+            />
+
+        <Label Text="Write your phone number" />
+        <Entry
+            Keyboard="Telephone"
+            Placeholder="Phone number"
+            PlaceholderColor="SteelBlue"
+            TextColor="Blue"
+            ClearButtonVisibility="WhileEditing"
+            
+            /> 
+        <Label Text="Write your GITHUB :" />
+        <Entry
+            Keyboard="Url"
+            Placeholder="github url"
+            PlaceholderColor="SteelBlue"
+            TextColor="Blue"
+            ClearButtonVisibility="WhileEditing"
+            ReturnType="Go"
+            
+            />
+
+
+    </VerticalStackLayout>
+</ContentPage>
