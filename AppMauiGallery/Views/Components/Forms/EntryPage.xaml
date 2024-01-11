@@ -6,44 +6,34 @@
     <VerticalStackLayout
         Padding="10">
         <Label 
-            Text="Write your name :"
+            Text="Name :"
             VerticalOptions="Center" 
-            HorizontalOptions="Start" />
+            HorizontalOptions="Start" 
+            Margin="10"/>
 
-        <Border Stroke="Purple"
-                StrokeThickness="5"
-        >
-
-            <Border.StrokeShape>
-                <RoundRectangle CornerRadius="10"/>
-            </Border.StrokeShape>
+        
 
 
-
-            <Entry x:Name="setName"
-                BackgroundColor="LightPink"
-                PlaceholderColor="Purple"
-                Placeholder="Name"
-                TextColor="DarkBlue"
-
+            <Entry x:Name="NameEntry"
+                BackgroundColor="#E1E1E1"
                 ClearButtonVisibility="WhileEditing"
-                MaxLength="10"
+                MaxLength="20"
                 CursorPosition="3"
                 SelectionLength="5"
-          
+                Margin="10 ,0 "
                 IsSpellCheckEnabled="True"
                 IsTextPredictionEnabled="True"
                    
                 Keyboard="Plain"
                 ReturnType="Next"
-                
-            
+                TextChanged="NameEntry_TextChanged"
+                Completed="NameEntry_Completed"
             />
-        </Border>
-
+       
         <Label Text="Write your passoword :" />
         
         <Entry
+            x:Name="PasswordEntry"
             IsPassword="True"
             Placeholder="Password"
             PlaceholderColor="Red"
@@ -51,15 +41,19 @@
             TextTransform="Lowercase"
             ClearButtonVisibility="WhileEditing"
             MaxLength="10"
+            Completed="Entry_Completed"
             />
 
         <Label Text="Write your phone number" />
         <Entry
+            x:Name="PhoneEntry"
             Keyboard="Telephone"
             Placeholder="Phone number"
             PlaceholderColor="SteelBlue"
             TextColor="Blue"
             ClearButtonVisibility="WhileEditing"
+            MaxLength="12"
+            Completed="Entry_Completed_1"
             
             /> 
         <Label Text="Write your GITHUB :" />
@@ -72,6 +66,11 @@
             ReturnType="Go"
             
             />
+
+        <Label x:Name="lblTextName" />
+        <Label x:Name="LblTextPassword" />
+        <Label x:Name="LblTextPhone" />
+        
 
 
     </VerticalStackLayout>
