@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/CheckBoxPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.CheckBoxPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\CheckBoxPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\CheckBoxPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/EditorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.EditorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\EditorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\EditorPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/EntryPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.EntryPage.xaml

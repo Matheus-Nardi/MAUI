@@ -1,76 +1,70 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppMauiGallery.Views.Components.Forms.EntryPage"
-             Title="EntryPage">
-    <VerticalStackLayout
-        Padding="10">
-        <Label 
+<ContentPage
+    x:Class="AppMauiGallery.Views.Components.Forms.EntryPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="EntryPage">
+    <VerticalStackLayout Padding="10">
+        <Label
+            Margin="10"
+            HorizontalOptions="Start"
             Text="Name :"
-            VerticalOptions="Center" 
-            HorizontalOptions="Start" 
-            Margin="10"/>
-
-        
+            VerticalOptions="Center" />
 
 
-            <Entry x:Name="NameEntry"
-                BackgroundColor="#E1E1E1"
-                ClearButtonVisibility="WhileEditing"
-                MaxLength="20"
-                CursorPosition="3"
-                SelectionLength="5"
-                Margin="10 ,0 "
-                IsSpellCheckEnabled="True"
-                IsTextPredictionEnabled="True"
-                   
-                Keyboard="Plain"
-                ReturnType="Next"
-                TextChanged="NameEntry_TextChanged"
-                Completed="NameEntry_Completed"
-            />
-       
+
+
+        <Entry
+            x:Name="NameEntry"
+            Margin="10,0"
+            BackgroundColor="#E1E1E1"
+            ClearButtonVisibility="WhileEditing"
+            Completed="NameEntry_Completed"
+            CursorPosition="3"
+            IsSpellCheckEnabled="True"
+            IsTextPredictionEnabled="True"
+            Keyboard="Plain"
+            MaxLength="20"
+            ReturnType="Next"
+            SelectionLength="5"
+            TextChanged="NameEntry_TextChanged" />
+
         <Label Text="Write your passoword :" />
-        
+
         <Entry
             x:Name="PasswordEntry"
+            ClearButtonVisibility="WhileEditing"
+            Completed="Entry_Completed"
             IsPassword="True"
+            MaxLength="10"
             Placeholder="Password"
             PlaceholderColor="Red"
             TextColor="Blue"
-            TextTransform="Lowercase"
-            ClearButtonVisibility="WhileEditing"
-            MaxLength="10"
-            Completed="Entry_Completed"
-            />
+            TextTransform="Lowercase" />
 
         <Label Text="Write your phone number" />
         <Entry
             x:Name="PhoneEntry"
+            ClearButtonVisibility="WhileEditing"
+            Completed="Entry_Completed_1"
             Keyboard="Telephone"
+            MaxLength="12"
             Placeholder="Phone number"
             PlaceholderColor="SteelBlue"
-            TextColor="Blue"
-            ClearButtonVisibility="WhileEditing"
-            MaxLength="12"
-            Completed="Entry_Completed_1"
-            
-            /> 
+            TextColor="Blue" />
         <Label Text="Write your GITHUB :" />
         <Entry
+            ClearButtonVisibility="WhileEditing"
             Keyboard="Url"
             Placeholder="github url"
             PlaceholderColor="SteelBlue"
-            TextColor="Blue"
-            ClearButtonVisibility="WhileEditing"
             ReturnType="Go"
-            
-            />
+            TextColor="Blue" />
 
         <Label x:Name="lblTextName" />
         <Label x:Name="LblTextPassword" />
         <Label x:Name="LblTextPhone" />
-        
+
 
 
     </VerticalStackLayout>
