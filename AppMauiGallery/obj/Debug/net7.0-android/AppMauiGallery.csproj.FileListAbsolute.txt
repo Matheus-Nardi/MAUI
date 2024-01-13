@@ -1000,3 +1000,4 @@ C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\d
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\charlizard.png
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\charlizard.png
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\charlizard.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\gremio.jpg

@@ -35,6 +35,15 @@
     <MauiXaml Update="Views\Components\Forms\EntryPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Components\Forms\RadioButtonPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Components\Forms\StepperPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Components\Forms\SwitchPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Components\Mains\BoxViewPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

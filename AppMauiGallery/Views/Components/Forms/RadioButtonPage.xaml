@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Components.Forms.RadioButtonPage"
+             Title="RadioButtonPage">
+    <VerticalStackLayout Padding="10">
+        <StackLayout>
+
+            <Label 
+                Text="Qual a sua cor favoria ?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+
+            <RadioButton Content="Vermelho" TextColor="Red" IsChecked="False" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Azul" TextColor="Blue" Value="" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="Roxo" TextColor="Purple" CheckedChanged="RadioButton_CheckedChanged"/>
+        </StackLayout>
+        
+        <StackLayout RadioButtonGroup.GroupName="ask02" Spacing="5">
+
+            <Label 
+                Text="Qual a sua linguagem de programação favoria ?"
+                VerticalOptions="Center" 
+                HorizontalOptions="Start" />
+
+            <RadioButton Content="C#" FontAttributes="Bold" BorderWidth="1" BorderColor="BlueViolet"  CornerRadius="10" BackgroundColor="MediumPurple" CheckedChanged="RadioButton_CheckedChanged" 
+                         IsChecked="False" />
+            <RadioButton Content="Java" FontAttributes="Bold" BorderWidth="1" BorderColor="BlueViolet"  CornerRadius="10" BackgroundColor="MediumPurple" CheckedChanged="RadioButton_CheckedChanged"/>
+            <RadioButton Content="JavaScript" FontAttributes="Bold" BorderWidth="1" BorderColor="BlueViolet"  CornerRadius="10" BackgroundColor="MediumPurple" CheckedChanged="RadioButton_CheckedChanged"/>
+        </StackLayout>
+
+        <Label x:Name="LblResultAks02" />
+    </VerticalStackLayout>
+</ContentPage>

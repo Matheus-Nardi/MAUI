@@ -51,6 +51,7 @@
 
 	<ItemGroup>
 	  <None Remove="Resources\Images\charlizard.svg" />
+	  <None Remove="Resources\Images\gremio.jpg" />
 	  <None Remove="Resources\Images\lampadadesligada.png" />
 	  <None Remove="Resources\Images\lampadaligada.png" />
 	  <None Remove="Resources\Images\lampadaquebrada.jpg" />
@@ -73,6 +74,15 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Components\Forms\EntryPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Components\Forms\RadioButtonPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Components\Forms\StepperPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Components\Forms\SwitchPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Components\Mains\BoxViewPage.xaml">

@@ -147,7 +147,30 @@ namespace AppMauiGallery.Repositories
                         Title = "CheckBox" ,
                         Description = "Cria um checkbox" ,
                         Page = typeof(CheckBoxPage)
+                    } ,
+
+                    new Component
+                    {
+                        Title = "RadioButton" ,
+                        Description = "Cria uma caixa de marcação de escolha única",
+                        Page = typeof(RadioButtonPage)
+                    } ,
+
+                    new Component
+                    {
+                        Title = "Switch" ,
+                        Description = "Caixa de marcação / liga/desliga" ,
+                        Page = typeof(SwitchPage)
+                    } ,
+                    
+                    new Component
+                    { 
+                        Title = "Stepper" ,
+                        Description = "Cria um controle de incremento" ,
+                        Page = typeof(StepperPage)
+                    
                     }
+
 
 
                 }
