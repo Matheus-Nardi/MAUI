@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Components.Forms.SliderPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SliderPage">
+    <VerticalStackLayout Padding="10">
+        <Label
+            HorizontalOptions="Start"
+            Text="Valor a ser doado :"
+            TextColor="White"
+            VerticalOptions="Center" />
+        <Frame
+            Margin="10"
+            BackgroundColor="Black"
+            BorderColor="Azure">
+            <VerticalStackLayout>
+                <Label
+                    x:Name="LblValue"
+                    HorizontalOptions="Center"
+                    TextColor="White"
+                    VerticalOptions="Center" />
+
+                <Slider
+                    DragCompleted="Slider_DragCompleted"
+                    DragStarted="Slider_DragStarted"
+                    Maximum="10"
+                    MaximumTrackColor="Orange"
+                    Minimum="0"
+                    MinimumTrackColor="CornflowerBlue"
+                    ThumbImageSource="dotnet_bot.png"
+                    ValueChanged="Slider_ValueChanged"
+                    Value="3" />
+            </VerticalStackLayout>
+        </Frame>
+
+        <Label x:Name="LblStatus" TextColor="White" />
+
+    </VerticalStackLayout>
+</ContentPage>

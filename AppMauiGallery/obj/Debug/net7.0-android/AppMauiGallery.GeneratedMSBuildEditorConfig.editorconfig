@@ -44,6 +44,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Compo
 build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\CheckBoxPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\CheckBoxPage.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/DatePickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.DatePickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\DatePickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\DatePickerPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/EditorPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.EditorPage.xaml
@@ -62,6 +68,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Compo
 build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\RadioButtonPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\RadioButtonPage.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/SliderPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.SliderPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\SliderPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\SliderPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/StepperPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.StepperPage.xaml
@@ -73,6 +85,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.SwitchPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\SwitchPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\SwitchPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/TimePickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.TimePickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\TimePickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\TimePickerPage.xaml
 
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Mains/BoxViewPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

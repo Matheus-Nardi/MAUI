@@ -115,10 +115,10 @@ namespace AppMauiGallery.Repositories
                         Title = "Shadow" ,
                         Description = "Adiciona sombra a um elemento" ,
                         Page = typeof(ShadowPage)
-                    
+
                     }
 
-                    
+
                 }
 
 
@@ -126,9 +126,9 @@ namespace AppMauiGallery.Repositories
 
             categories.Add(new Category
             {
-                Name = "Formularios" ,
+                Name = "Formularios",
                 Components = new List<Component>
-                { 
+                {
                     new Component
                     {
                         Title = "Entry" ,
@@ -162,13 +162,34 @@ namespace AppMauiGallery.Repositories
                         Description = "Caixa de marcação / liga/desliga" ,
                         Page = typeof(SwitchPage)
                     } ,
-                    
+
                     new Component
-                    { 
+                    {
                         Title = "Stepper" ,
                         Description = "Cria um controle de incremento" ,
                         Page = typeof(StepperPage)
-                    
+
+                    } ,
+
+                    new Component
+                    {
+                        Title = "Slider" ,
+                        Description = "Cria uma barra de incremento" ,
+                        Page = typeof(SliderPage)
+
+                    } ,
+
+                    new Component
+                    {
+                         Title = "Time Picker" ,
+                         Description = "Cria um controle de seleção de horas e minutos" ,
+                         Page = typeof(TimePickerPage)
+                    } ,
+                    new Component
+                    {
+                         Title = "Date Picker" ,
+                         Description = "Cria um controle de seleção de data" ,
+                         Page = typeof(DatePickerPage)
                     }
 
 

@@ -13,7 +13,11 @@
             
         <Stepper Minimum="1" Maximum="15" Value="0" Increment="1"
                  ValueChanged="Stepper_ValueChanged"/>
-        <Label Text="" VerticalOptions="Center" FontSize="22"/>
+        <Label Text="" VerticalOptions="Center" FontSize="14"/>
+            
+            
         </HorizontalStackLayout>
+
+     
     </VerticalStackLayout>
 </ContentPage>
