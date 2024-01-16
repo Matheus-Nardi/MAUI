@@ -58,11 +58,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Compo
 build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\EntryPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\EntryPage.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/PickerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.PickerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\PickerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\PickerPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/RadioButtonPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.RadioButtonPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\RadioButtonPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\RadioButtonPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/SearchBarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.SearchBarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Components\Forms\SearchBarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Components\Forms\SearchBarPage.xaml
 
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/SliderPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

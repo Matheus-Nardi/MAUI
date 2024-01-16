@@ -190,7 +190,19 @@ namespace AppMauiGallery.Repositories
                          Title = "Date Picker" ,
                          Description = "Cria um controle de seleção de data" ,
                          Page = typeof(DatePickerPage)
-                    }
+                    } ,
+                    new Component
+                    {
+                         Title = "Search Bar" ,
+                         Description = "Campo de entrada de texto para pesquisa" ,
+                         Page = typeof(SearchBarPage)
+                    } ,
+                    new Component
+                    {
+                         Title = "Picker" ,
+                         Description = "Cria um controle de seleção de itens" ,
+                         Page = typeof(PickerPage)
+                    } 
 
 
 

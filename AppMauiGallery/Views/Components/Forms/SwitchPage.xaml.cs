@@ -15,14 +15,14 @@ public partial class SwitchPage : ContentPage
 		var label = (Label)horizontalStack.Children[1];
 		if(e.Value)
 		{
-			verticalStack.BackgroundColor = Color.FromHex("#000");
-			label.TextColor = Color.FromHex("#FFF");
+			verticalStack.BackgroundColor = Color.FromArgb("#000");
+			label.TextColor = Color.FromArgb("#FFF");
 			label.Text = "White Mode";
 		}
 		else
 		{
-			verticalStack.BackgroundColor = Color.FromHex("#FFF");
-			label.TextColor = Color.FromHex("#000");
+			verticalStack.BackgroundColor = Color.FromArgb("#FFF");
+			label.TextColor = Color.FromArgb("#000");
 			label.Text = "Dark Mode";
 		}
     }
