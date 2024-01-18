@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Cells.SwitchCellPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="SwitchCellPage"
+    BackgroundColor="LightPink">
+    <VerticalStackLayout Padding="10">
+        <TableView>
+            <TableSection Title="Configurações do aplicativo">
+                <SwitchCell
+                    OnChanged="SwitchCell_OnChanged"
+                    OnColor="HotPink"
+                    Text="Ligar modo não pertube" />
+                <SwitchCell OnColor="HotPink" Text="Ativar música de fundo" />
+                <SwitchCell OnColor="HotPink" Text="Ativar notificações" />
+                <SwitchCell OnColor="HotPink" Text="Backup mensal" />
+
+            </TableSection>
+        </TableView>
+
+
+    </VerticalStackLayout>
+</ContentPage>

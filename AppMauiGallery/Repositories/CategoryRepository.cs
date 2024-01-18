@@ -1,4 +1,5 @@
 ﻿using AppMauiGallery.Models;
+using AppMauiGallery.Views.Cells;
 using AppMauiGallery.Views.Components.Forms;
 using AppMauiGallery.Views.Components.Mains;
 using AppMauiGallery.Views.Components.Visuals;
@@ -207,6 +208,40 @@ namespace AppMauiGallery.Repositories
 
 
                 }
+            });
+
+            categories.Add(new Category
+            {
+                 Name = "Células",
+                 Components = new List<Component>
+                 { 
+                    new Component
+                    {
+                        Title = "TextCell",
+                        Description = "Apresente até duas labels onde uma é destianada ao título e outro a descrição",
+                        Page = typeof(TextCellPage)
+                    } ,
+                     new Component
+                    {
+                        Title = "ImageCell",
+                        Description = "Apresente uma imagem com duas labels onde uma é destianada ao título e outro a descrição",
+                        Page = typeof(ImageCellPage)
+                    } ,
+                     new Component
+                     {
+                         Title = "SwitchCell",
+                         Description = "Apresenta uma única label em conjuto com um switch",
+                         Page = typeof(SwitchCellPage)
+                     } ,
+                     new Component
+                     {
+                            Title = "EntryCell",
+                            Description = "Apresenta uma única label em conjuto com um campo de entrada de texto",
+                            Page = typeof(EntryCellPage)
+                        } ,
+
+                 }
+
             });
 
 

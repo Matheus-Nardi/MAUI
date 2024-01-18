@@ -38,6 +38,30 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Resources.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Cells/EntryCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Cells.EntryCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\EntryCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\EntryCellPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Cells/ImageCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Cells.ImageCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\ImageCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\ImageCellPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Cells/SwitchCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Cells.SwitchCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\SwitchCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\SwitchCellPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Cells/TextCellPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Cells.TextCellPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Cells\TextCellPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Cells\TextCellPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Components/Forms/CheckBoxPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Components.Forms.CheckBoxPage.xaml
