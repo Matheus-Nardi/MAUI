@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppMauiGallery.Views.Cells.EntryCellPage"
              Title="EntryCellPage"
-             BackgroundColor="CadetBlue">
+             BackgroundColor="CadetBlue"
+             >
     <VerticalStackLayout Padding="10">
         <TableView>
             <TableSection>

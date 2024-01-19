@@ -4,6 +4,7 @@ using AppMauiGallery.Views.Components.Forms;
 using AppMauiGallery.Views.Components.Mains;
 using AppMauiGallery.Views.Components.Visuals;
 using AppMauiGallery.Views.Layouts;
+using AppMauiGallery.Views.Lists;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -238,11 +239,31 @@ namespace AppMauiGallery.Repositories
                             Title = "EntryCell",
                             Description = "Apresenta uma única label em conjuto com um campo de entrada de texto",
                             Page = typeof(EntryCellPage)
-                        } ,
+                     },
+                     new Component
+                     {
+                            Title = "ViewCell",
+                            Description = "Apresenta uma view personalizada",
+                            Page = typeof(ViewCellPage)
+                     },
 
                  }
 
             });
+
+            categories.Add(new Category
+            {
+                Name = "Listas e Coleções",
+                Components = new List<Component>
+                 {
+                    new Component
+                    {
+                        Title = "TableView",
+                        Description = "Apresenta células em linhas separadas e permite agrupar por seção",
+                        Page = typeof(TableViewPage)
+                    } ,
+                }
+          });
 
 
             return categories;

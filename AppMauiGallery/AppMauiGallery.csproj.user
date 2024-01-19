@@ -38,6 +38,9 @@
     <MauiXaml Update="Views\Cells\TextCellPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Cells\ViewCellPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Components\Forms\CheckBoxPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -105,6 +108,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\Layouts\StackLayoutPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\Lists\TableViewPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Views\MainPage.xaml">

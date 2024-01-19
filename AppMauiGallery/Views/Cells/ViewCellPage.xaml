@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMauiGallery.Views.Cells.ViewCellPage"
+             Title="ViewCellPage"
+             BackgroundColor="Pink">
+    <VerticalStackLayout Padding="10" >
+       
+        <TableView Margin="0 , 0 , 0 , 30">
+            <TableSection Title="Colaboradores">
+                <ViewCell>
+                    <Grid ColumnDefinitions="70 , * , 100" x:Name="infoWorker">
+                        <Image Source="dotnet_bot.png" />
+                        <VerticalStackLayout Grid.Column="1">
+                            <Label Text="Matheus Nardi" FontSize="18" />
+                            <Label Text="Presidente (CEO)" TextColor="Gray" />
+                        </VerticalStackLayout>
+
+                        <Button Text="Excluir" Grid.Column="2" BackgroundColor="HotPink" Clicked="Button_Clicked"/>
+                    </Grid>
+                </ViewCell>
+            </TableSection>
+        </TableView>
+    </VerticalStackLayout>
+</ContentPage>
