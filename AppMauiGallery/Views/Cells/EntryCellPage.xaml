@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppMauiGallery.Views.Cells.EntryCellPage"
-             Title="EntryCellPage"
-             BackgroundColor="CadetBlue"
-             >
+<ContentPage
+    x:Class="AppMauiGallery.Views.Cells.EntryCellPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="EntryCellPage"
+    BackgroundColor="CadetBlue">
     <VerticalStackLayout Padding="10">
         <TableView>
             <TableSection>
-                <EntryCell Label="Nome" Placeholder="name"/>
-                <EntryCell Label="Email" Placeholder="email" Keyboard="Email"/>
+                <EntryCell Label="Nome" Placeholder="name" />
+                <EntryCell
+                    Keyboard="Email"
+                    Label="Email"
+                    Placeholder="email" />
                 <EntryCell Label="Senha" Placeholder="senha" />
-                
+
             </TableSection>
         </TableView>
     </VerticalStackLayout>
