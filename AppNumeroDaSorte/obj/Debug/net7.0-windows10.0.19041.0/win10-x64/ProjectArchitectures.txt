@@ -1,1 +1,0 @@
-C:\dev\NetMaui\CursoMaui\AppNumeroDaSorte\AppNumeroDaSorte.csproj;x64

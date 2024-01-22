@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Lists.ListViewPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="ListViewPage">
+
+
+
+    <ListView
+        x:Name="ListViewControl"
+        HasUnevenRows="True"
+        IsGroupingEnabled="True"
+        IsPullToRefreshEnabled="True"
+        ItemSelected="ListViewControl_ItemSelected"
+        RefreshControlColor="DeepPink"
+        Refreshing="ListViewControl_Refreshing"
+        SelectionMode="Single"
+        SeparatorColor="HotPink"
+        SeparatorVisibility="Default">
+
+        <ListView.Header>
+            <Button
+                Margin="20"
+                BackgroundColor="HotPink"
+                Clicked="Button_Clicked"
+                Text="Carregar" />
+
+        </ListView.Header>
+
+        <ListView.GroupHeaderTemplate >
+            <DataTemplate >
+                <ViewCell>
+                    <VerticalStackLayout >
+                        <VerticalStackLayout.Background>
+                            <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+                                
+                                <GradientStop Offset="0" Color="HotPink" />
+                                <GradientStop Offset="1" Color="DeepPink" />
+                                
+                            </LinearGradientBrush>
+                        </VerticalStackLayout.Background>
+
+                        <Label
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="24"
+                        HorizontalTextAlignment="Center"
+                        Text="{Binding CompanyName}">
+                        
+
+
+                    </Label>
+                    </VerticalStackLayout>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <VerticalStackLayout Padding="10">
+
+                        <Label
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            Text="{Binding Name}" />
+                        <Label Text="{Binding Description}" TextColor="Gray" />
+                        <HorizontalStackLayout Margin="0,10,0,0" Spacing="10">
+                            <Label Text="{Binding LaunchYear}" />
+                            <Label Text="{Binding Duration}" />
+                        </HorizontalStackLayout>
+
+                    </VerticalStackLayout>
+
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+        <ListView.Footer>
+            <Label
+                BackgroundColor="HotPink"
+                HorizontalTextAlignment="Center"
+                Text="Create by Nardi" />
+        </ListView.Footer>
+    </ListView>
+
+
+
+</ContentPage>

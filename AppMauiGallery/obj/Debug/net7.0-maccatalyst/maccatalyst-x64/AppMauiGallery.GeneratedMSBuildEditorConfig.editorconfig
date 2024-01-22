@@ -202,6 +202,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Layou
 build_metadata.AdditionalFiles.TargetPath = Views\Layouts\StackLayoutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Layouts\StackLayoutPage.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Lists/ListViewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Lists.ListViewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\ListViewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\ListViewPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Lists/PickerListPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Lists.PickerListPage.xaml

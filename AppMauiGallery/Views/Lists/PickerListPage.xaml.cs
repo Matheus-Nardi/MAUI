@@ -12,6 +12,5 @@ public partial class PickerListPage : ContentPage
     private void Button_Clicked(object sender, EventArgs e)
     {
 		PickerControl.ItemsSource = MovieList.GetList();
-		
     }
 }

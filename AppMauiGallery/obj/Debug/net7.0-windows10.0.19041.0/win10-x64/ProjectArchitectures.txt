@@ -1,1 +1,0 @@
-C:\dev\NetMaui\CursoMaui\AppMauiGallery\AppMauiGallery.csproj;x64
