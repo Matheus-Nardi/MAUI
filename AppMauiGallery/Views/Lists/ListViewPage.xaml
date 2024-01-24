@@ -9,6 +9,7 @@
 
     <ListView
         x:Name="ListViewControl"
+        CachingStrategy="RetainElement"
         HasUnevenRows="True"
         IsGroupingEnabled="True"
         IsPullToRefreshEnabled="True"
@@ -17,7 +18,8 @@
         Refreshing="ListViewControl_Refreshing"
         SelectionMode="Single"
         SeparatorColor="HotPink"
-        SeparatorVisibility="Default">
+        SeparatorVisibility="Default"
+        VerticalScrollBarVisibility="Never">
 
         <ListView.Header>
             <Button
@@ -28,29 +30,25 @@
 
         </ListView.Header>
 
-        <ListView.GroupHeaderTemplate >
-            <DataTemplate >
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>
                 <ViewCell>
-                    <VerticalStackLayout >
+                    <VerticalStackLayout>
                         <VerticalStackLayout.Background>
                             <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
-                                
+
                                 <GradientStop Offset="0" Color="HotPink" />
                                 <GradientStop Offset="1" Color="DeepPink" />
-                                
+
                             </LinearGradientBrush>
                         </VerticalStackLayout.Background>
 
                         <Label
-                        TextColor="White"
-                        FontAttributes="Bold"
-                        FontSize="24"
-                        HorizontalTextAlignment="Center"
-                        Text="{Binding CompanyName}">
-                        
-
-
-                    </Label>
+                            FontAttributes="Bold"
+                            FontSize="24"
+                            HorizontalTextAlignment="Center"
+                            Text="{Binding CompanyName}"
+                            TextColor="White" />
                     </VerticalStackLayout>
 
                 </ViewCell>
