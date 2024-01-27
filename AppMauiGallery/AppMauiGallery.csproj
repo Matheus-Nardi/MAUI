@@ -54,6 +54,9 @@
 	  <None Remove="Resources\Images\lampadadesligada.png" />
 	  <None Remove="Resources\Images\lampadaligada.png" />
 	  <None Remove="Resources\Images\lampadaquebrada.jpg" />
+	  <None Remove="Resources\Images\Maui02.png" />
+	  <None Remove="Resources\Images\Maui03.png" />
+	  <None Remove="Resources\Images\Maui04.png" />
 	  <None Remove="Resources\Images\powerOff.png" />
 	  <None Remove="Resources\Images\powerOn.png" />
 	</ItemGroup>
