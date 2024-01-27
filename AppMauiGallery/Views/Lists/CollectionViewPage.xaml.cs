@@ -1,5 +1,6 @@
 using AppMauiGallery.Views.Lists.Models;
 using System.Collections.ObjectModel;
+using System.Text;
 
 namespace AppMauiGallery.Views.Lists;
 
@@ -10,7 +11,7 @@ public partial class CollectionViewPage : ContentPage
 	{
 		InitializeComponent();
 		AddTenMovies();
-		ColletionViewControl.ItemsSource = movies;
+		ColletionViewControl.ItemsSource = MovieList.GetGroupList();
 	}
 
     private async void RefreshView_Refreshing(object sender, EventArgs e)
@@ -44,4 +45,30 @@ public partial class CollectionViewPage : ContentPage
                 
         }
 	}
+
+    private void ColletionViewControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+		StringBuilder sb = new StringBuilder();
+		foreach(Movie movies in e.CurrentSelection)
+		{
+			sb.Append(movies.Name + " - ");
+		}
+		LblSelectedMovies.Text = sb.ToString();
+    }
+
+    private void Button_Clicked(object sender, EventArgs e)
+    {
+		var group = (List<GroupMovie>)ColletionViewControl.ItemsSource;
+		var item = group[2][0];
+		ColletionViewControl.ScrollTo(item , position: ScrollToPosition.Start);
+
+
+		//ColletionViewControl.ScrollTo(4, position: ScrollToPosition.Start);
+    }
+
+    private void ColletionViewControl_Scrolled(object sender, ItemsViewScrolledEventArgs e)
+    {
+		LblScroolStatus.Text = $"VerticalDelta: {e.VerticalDelta} \n VerticalOffset: {(int)e.VerticalOffset} \n LastVisibleItemIndex: {e.LastVisibleItemIndex}";
+		
+    }
 }
