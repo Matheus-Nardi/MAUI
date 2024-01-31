@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppMauiGallery.Views.Lists.CarouselViewPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="CarouselViewPage">
+
+    <ContentPage.Resources>
+        <Style TargetType="BoxView" x:Key="IndicatorStyle">
+            <Setter Property="VisualStateManager.VisualStateGroups" >
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal">
+                            <VisualState.Setters>
+                                <Setter Property="Color" Value="#FFF6F9" />  
+                            </VisualState.Setters>
+                        </VisualState>
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="Color" Value="HotPink" />
+                            </VisualState.Setters>
+                        </VisualState>
+                            
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+          
+        </Style>
+    </ContentPage.Resources>
+    <Grid>
+
+        <CarouselView
+        x:Name="CarouselViewControl"
+        IsSwipeEnabled="True"
+        Loop="False"
+        PeekAreaInsets="30"
+        Position="0"
+        IndicatorView="IndicatorViewControl"
+        >
+
+            <CarouselView.ItemsLayout>
+                <LinearItemsLayout Orientation="Horizontal" ItemSpacing="0" SnapPointsType="MandatorySingle" SnapPointsAlignment="Center"/>
+            </CarouselView.ItemsLayout>
+
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <VerticalStackLayout Margin="10" BackgroundColor="#f2f2f2">
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="5">
+                            <Label
+                            Margin="0,20,0,0"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            Text="{Binding Id}" />
+                            <Label
+                            Margin="0,20,0,0"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            HorizontalOptions="Center"
+                            Text="{Binding Name , StringFormat='- {0}'}" />
+                        </HorizontalStackLayout>
+                        <Image
+                        Margin="10"
+                        HeightRequest="500"
+                        Source="{Binding UrlImage}" />
+                        <Label
+                        Padding="5"
+                        Text="{Binding Description}"
+                        TextColor="Gray" />
+                        <HorizontalStackLayout HorizontalOptions="Center" Spacing="70">
+                            <Label Text="{Binding LaunchYear}" />
+                            <Label Text="{Binding Duration}" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+                </DataTemplate>
+
+            </CarouselView.ItemTemplate>
+
+        </CarouselView>
+        <!-- Indicador Padrão
+        <IndicatorView x:Name="IndicatorViewControl" 
+                       HorizontalOptions="Center"
+                       VerticalOptions="End"
+                       Margin="10"
+                       IndicatorColor="Black"
+                       SelectedIndicatorColor="HotPink"
+                       IndicatorSize="12"
+                       IndicatorsShape="Circle"
+                       />
+        -->
+
+        <!-- Indicador com template  -->
+
+        <IndicatorView x:Name="IndicatorViewControl" 
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Margin="10"
+                IndicatorColor="Transparent"
+                SelectedIndicatorColor="Transparent"
+                IndicatorSize="12">
+            <IndicatorView.IndicatorTemplate>
+                <DataTemplate>
+                    <BoxView WidthRequest="20" 
+                             HeightRequest="10"
+                             Style="{StaticResource IndicatorStyle}"
+                             CornerRadius="3"/>
+                </DataTemplate> 
+            </IndicatorView.IndicatorTemplate>
+        </IndicatorView>
+
+
+
+    </Grid>
+
+
+</ContentPage>

@@ -1001,3 +1001,7 @@ C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\stamp\_ConvertR
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauifour.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauione.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauithree.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauitwo.png

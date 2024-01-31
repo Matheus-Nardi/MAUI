@@ -110,6 +110,9 @@
     <MauiXaml Update="Views\Layouts\StackLayoutPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Views\Lists\CarouselViewPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\Lists\CollectionViewPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

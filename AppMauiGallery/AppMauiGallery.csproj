@@ -62,10 +62,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Include="readme\Maui01.png" />
-	  <MauiImage Include="readme\Maui02.png" />
-	  <MauiImage Include="readme\Maui03.png" />
-	  <MauiImage Include="readme\Maui04.png" />
+	  <MauiImage Include="readme\mauione.png" />
+	  <MauiImage Include="readme\mauitwo.png" />
+	  <MauiImage Include="readme\mauithree.png" />
+	  <MauiImage Include="readme\mauifour.png" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -158,6 +158,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Layouts\StackLayoutPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\Lists\CarouselViewPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\Lists\CollectionViewPage.xaml">

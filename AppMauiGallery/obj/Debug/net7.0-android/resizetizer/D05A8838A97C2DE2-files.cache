@@ -2,6 +2,10 @@
 obj\Debug\net7.0-android\resizetizer\r\drawable\lampadadesligada.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\lampadaligada.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\lampadaquebrada.jpg
+obj\Debug\net7.0-android\resizetizer\r\drawable\mauifour.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\mauione.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\mauithree.png
+obj\Debug\net7.0-android\resizetizer\r\drawable\mauitwo.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\poweroff.png
 obj\Debug\net7.0-android\resizetizer\r\drawable\poweron.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\charlizard.png
