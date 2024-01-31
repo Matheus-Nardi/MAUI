@@ -206,6 +206,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Layou
 build_metadata.AdditionalFiles.TargetPath = Views\Layouts\StackLayoutPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Layouts\StackLayoutPage.xaml
 
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Lists/BindableLayoutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Lists.BindableLayoutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\BindableLayoutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\BindableLayoutPage.xaml
+
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Lists/CarouselViewPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Lists.CarouselViewPage.xaml
@@ -217,6 +223,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Lists.CollectionViewPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Lists\CollectionViewPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Lists\CollectionViewPage.xaml
+
+[C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Lists/DataTemplateSelectorPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = AppMauiGallery.Views.Lists.DataTemplateSelectorPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Lists\DataTemplateSelectorPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Lists\DataTemplateSelectorPage.xaml
 
 [C:/dev/NetMaui/CursoMaui/AppMauiGallery/Views/Lists/ListViewPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

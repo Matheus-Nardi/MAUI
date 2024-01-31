@@ -1005,3 +1005,8 @@ C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\d
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauione.png
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauithree.png
 C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable\mauitwo.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\clock.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\clock.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\clock.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\clock.png
+C:\dev\NetMaui\CursoMaui\AppMauiGallery\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\clock.png
