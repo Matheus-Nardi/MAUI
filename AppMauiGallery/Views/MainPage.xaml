@@ -5,13 +5,34 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     Title="Início"
     BackgroundColor="#F9F9F9">
-    <VerticalStackLayout>
-        <Button Text="Faça amor" TextColor="#E21C1C" />
-        <Label
-            HorizontalOptions="Center"
-            Text="Conteudo da Pagina Inicial!"
-            TextColor="#B238B3DA"
-            VerticalOptions="Center" />
+    <CollectionView x:Name="ComponentCollection">
+        <CollectionView.Header>
+            <SearchBar Margin="20,20,20,10" Placeholder="Pesquisa..." TextChanged="SearchBar_TextChanged" />
+        </CollectionView.Header>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Frame Margin="10">
+                    <Frame.Background>
 
-    </VerticalStackLayout>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                            <GradientStop Offset="0.1" Color="#A9C4C1" />
+                            <GradientStop Offset="0.6" Color="#83C6BD" />
+
+                        </LinearGradientBrush>
+                    </Frame.Background>
+                    <VerticalStackLayout Padding="20,10">
+
+
+                        <VerticalStackLayout.GestureRecognizers>
+                            <TapGestureRecognizer CommandParameter="{Binding Page}" Tapped="OnTapConponent" />
+                        </VerticalStackLayout.GestureRecognizers>
+
+                        <Label FontAttributes="Bold" Text="{Binding Title}" />
+                        <Label Text="{Binding Description}" TextColor="{StaticResource Gray500}" />
+                    </VerticalStackLayout>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+
+    </CollectionView>
 </ContentPage>
